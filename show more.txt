@@ -1,0 +1,97 @@
+show more:
+
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/div[4]/button	p1
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/div[4]/button	p2
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/div[4]/button	p3
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/div[4]/button	p4
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/div[4]/button	p5
+
+inference = same everywhere
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+company:
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/p	p1
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[13]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/p	p2
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[25]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/p	p3
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[211]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/p	every entry
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[209]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/p	no entry for skills
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[210]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/p	no entry for skills and star ratings
+
+inference = same everywhere only li[] changes
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+title:
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/div/div/div[2]/div[1]/div[2]/a/h3	p1
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[13]/div/div/div/div/div/div[2]/div[1]/div[2]/a/h3	p2
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[25]/div/div/div/div/div/div[2]/div[1]/div[2]/a/h3	p3
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[211]/div/div/div/div/div/div[2]/div[1]/div[2]/a/h3	every entry
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[209]/div/div/div/div/div/div[2]/div[1]/div[2]/a/h3	no entry for skills
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[210]/div/div/div/div/div/div[2]/div[1]/div[2]/a/h3	no entry for skills and star ratings
+
+inference = same everywhere only li[] changes
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+star rating:
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[1]	p1
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[13]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[1]	p2
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[25]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[1]	p3
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[211]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[1]	every entry
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[209]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/p[1]	no entry for skills
+																no entry for skills and star ratings
+inference = same everywhere only li[] and (for skills present)div[3]/div[2](for skills not present) changes
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+number of raters:
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[2]	p1
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[13]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[2]	p2
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[25]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[2]	p3
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[211]/div/div/div/div/div/div[2]/div[3]/div[2]/div/div/p[2]	every entry
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[209]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/p[2]	no entry for skills
+																no entry for skills and star ratings
+inference = same everywhere only li[] and (for skills present)div[3]/div[2](for skills not present) changes
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+skills:
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/div/div/div[2]/div[2]/div/p		p1
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[13]/div/div/div/div/div/div[2]/div[2]/div/p		p2
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[25]/div/div/div/div/div/div[2]/div[2]/div/p		p3
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[211]/div/div/div/div/div/div[2]/div[2]/div/p		every entry present
+															no entry for skills
+															no entry for skills and star ratings
+inference = same everywhere only li[] changes
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+level:
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/div/div/div[2]/div[3]/div[3]/p	p1
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[13]/div/div/div/div/div/div[2]/div[3]/div[3]/p	p2
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[25]/div/div/div/div/div/div[2]/div[3]/div[3]/p	p3
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[211]/div/div/div/div/div/div[2]/div[3]/div[3]/p	every entry is present
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[209]/div/div/div/div/div/div[2]/div[2]/div[3]/p	no entry for skills
+/html/body/div[2]/div/div/main/div[2]/div/div/div/div/div[2]/ul/li[210]/div/div/div/div/div/div[2]/div[2]/div[3]/p	no entry for skills and star ratings
+
+inference = same everywhere only li[] and (for skills present)div[3]/div[2](for skills not ptesent) changes
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
